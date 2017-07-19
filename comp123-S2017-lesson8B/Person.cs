@@ -50,11 +50,12 @@ namespace comp123_S2017_lesson8B
 
         //public methods-----------------
         /// <summary>
-        /// this method enables the person obkect to talk
+        /// this method enables the person object to talk
+        /// and also tells the age
         /// </summary>
         public void Talks()
         {
-            Console.WriteLine(this.Name + "is talking");
+            Console.WriteLine(this.Name + "is talking and "+ this.Name +" is "  + this.Age +" years old");
         }
     }
 }
