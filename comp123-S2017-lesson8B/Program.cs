@@ -15,6 +15,10 @@ namespace comp123_S2017_lesson8B
             Person person = new Person("mehul ", 25);
             person.Talks();
             Console.WriteLine("\n");
+            Student student = new Student("bobbo ", 20, "155683151A");
+            student.Studies();
+            student.Talks();
+            Console.WriteLine("\n");
         }
     }
 }
