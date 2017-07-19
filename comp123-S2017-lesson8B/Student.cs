@@ -9,7 +9,7 @@ namespace comp123_S2017_lesson8B
     /// <summary>
     /// this is the student class
     /// </summary>
-    class Student : Person
+   public class Student : Person
     {
         //private instance variable(fields)
         private string _studentID;

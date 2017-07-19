@@ -9,7 +9,7 @@ namespace comp123_S2017_lesson8B
     /// <summary>
     /// this is the person class
     /// </summary>
-    class Person
+   public class Person
     {
         // ptivate instance variable(fields)
         private string _name;
